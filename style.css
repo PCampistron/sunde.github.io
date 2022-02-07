@@ -1,5 +1,59 @@
 body
 {
-    background-color: rgb(26, 25, 25);
+    background-color: #3b3b3b;
     color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: #00cbda;
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    color: #ff0088;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1
+{
+    color: #ffbb00
+}
+
+.title img
+{
+    padding-right: 12px;
+    height: 100px;
+    width: 100px;
 }
