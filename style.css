@@ -39,6 +39,11 @@ li a:hover
     color: #ff0088;
 }
 
+#active
+{
+    color: #ff0088;
+}
+
 .title
 {
     display: flex;
